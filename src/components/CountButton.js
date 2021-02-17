@@ -32,16 +32,14 @@ const CountButton = (props) => {
 
   const title = {
     color: "black",
-    marginLeft: "60px",
+    marginLeft: "10px",
     fontSize: "1.5rem"
   }
 
   return (
-
     <div>
-    <h4 style={title}>{props.title}</h4>
+      <h4 style={title}>{props.title}</h4>
       <button style={buttonStyle} onClick={handleClick}>+{props.incrementBy}</button>
-
       <div style={countDisplay}>{currentCount}</div>
     </div>
 

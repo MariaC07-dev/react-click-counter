@@ -10,9 +10,10 @@ function App() {
   //when you pass props toa  acomponent you can make up the names there is no certain rules about that but is obvious you pass a descriptive name of a prop
   return (
     <div>
-      <CountButton incrementBy={1} buttonColor={"magenta"} borderRadius={"10px"} title={" Click to increase the counter by 1"}/>
+    <h2>Counters</h2>
+      <CountButton incrementBy={1} buttonColor={"magenta"} borderRadius={"10px"} title={"Click to increase the counter by 1"}/>
       <CountButton incrementBy={5} buttonColor={"purple"} borderRadius={"15px"} title={"Click to increase the counter by 5"}/>
-      <CountButton incrementBy={10} buttonColor={"darkblue"} borderRadius={"20px"} title={" Click to increase counter by 10"}/>
+      <CountButton incrementBy={10} buttonColor={"darkblue"} borderRadius={"20px"} title={"Click to increase the counter by 10"}/>
     </div>
   );
 }
