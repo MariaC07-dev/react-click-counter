@@ -3,11 +3,6 @@ import React from "react"
 import CountButton from "./components/CountButton"
 
 function App() {
-  //props are values that get passed into a component by the component that is rendering it
-  //wehn props aren't passed to the component that is rendering it you will get NaN
-  //props are external values that get/are passed into a component they are basically arguments that get passed in
-  //state is a value that is internal to the component
-  //when you pass props toa  acomponent you can make up the names there is no certain rules about that but is obvious you pass a descriptive name of a prop
   return (
     <div>
     <h2>Counters</h2>
