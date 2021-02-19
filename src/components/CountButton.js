@@ -2,7 +2,6 @@ import React, {  useState } from "react"
 
 
 const CountButton = (props) => {
-  console.log(props.incrementBy);
   const [currentCount, setCurrentCount] = useState(0)
 
   const handleClick = () => {
@@ -15,7 +14,7 @@ const CountButton = (props) => {
     color: "white",
     fontSize: "1.5rem",
     marginBottom: "10px",
-    marginTop: "50px",
+    marginTop: "20px",
     marginLeft: "50px",
     display: "flex",
     justifyContent: "center",
@@ -28,6 +27,7 @@ const CountButton = (props) => {
     marginLeft: "10px",
     padding:"30px",
     fontSize: "1.5rem",
+    marginBottom: "30px"
   }
 
   const title = {
