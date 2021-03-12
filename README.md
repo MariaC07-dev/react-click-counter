@@ -18,5 +18,5 @@ You will also see any lint errors in the console.
 #### How to run this project?
 Once you cloned the repository please do an npm install.
 
-##### This is a React Application that holds a few Counters. Every counter is increased on click using diferent values.
+##### This is a React Application that holds a few Counters. Every counter is increased on click using a diferent value.
 
